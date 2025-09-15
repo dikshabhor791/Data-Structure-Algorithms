@@ -98,14 +98,31 @@ int main(){
     //     n++;
     // }while(n <= 10);
 
-    int n ;
-    int isboolean = true;
-    int fact =0;
-    for(int i=0 ; i<=10 ; i++){
-        if(i% n == 0){
-        isboolean=true;  
-        break;
-        }else if
-    }
+
+    // prime number
+    // int n = 17;
+    // int isboolean = true;
+    // for(int i=2 ; i<=n-1 ; i++){
+    //     if(n%i == 0){
+    //     isboolean = false;  
+    //     break;
+    //     }
+    // }
+
+    //     if(isboolean == true){
+    //         cout << "prime";
+    //     }else{
+    //         cout<<"non-prime";
+    //     }
+    
+// Factorial
+    // int n = 5;
+    // int fact = 0;
+    // for(int i=1; i<=n; i++){
+    //     fact= fact*i;
+    // }
+    // cout << fact;
+
+    
     return 0;
 }
